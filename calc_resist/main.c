@@ -17,7 +17,7 @@ int main() {
     // if ...
 
     res = volt / cur;
-    printf("Resistance: %.2f  Ohms\n", res);
+    printf("Resistance: %.2f Ohms\n", res);
 
     return 0;
 }
