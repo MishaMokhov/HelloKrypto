@@ -5,11 +5,11 @@ int main() {
     double volt;
     double res;
 
-    printf("Введите напряжение (V): ");
+    printf("Insert voltage (V): ");
     // Здесь пользователь должен ввести свои значения 
     //...
 
-    printf("Введите ток (I): ");
+    printf("Insert current (I): ");
     // Здесь пользователь должен ввести свои значения
     //...
 
@@ -17,7 +17,7 @@ int main() {
     // if ...
 
     res = volt / cur;
-    printf("Необходимое напряжение: %.2f Ом\n", res);
+    printf("Resistance: %.2f Ohms\n", res);
 
     return 0;
 }
